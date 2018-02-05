@@ -13,6 +13,9 @@
 		2571F0B2202837610017AFEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2571F0AF202837610017AFEF /* Main.storyboard */; };
 		2571F0B7202837690017AFEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2571F0B5202837690017AFEF /* Assets.xcassets */; };
 		2571F0B8202837690017AFEF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2571F0B6202837690017AFEF /* Info.plist */; };
+		2571F0BB202839C70017AFEF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2571F0BA202839C70017AFEF /* AVFoundation.framework */; };
+		2571F0C320283C890017AFEF /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 2571F0C220283C890017AFEF /* Podfile */; };
+		EEE2C735AD952EF652D92BC5 /* Pods_MultiSense.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFA86F8EF33B93DDB9A7C9D8 /* Pods_MultiSense.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,11 @@
 		2571F0B0202837610017AFEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2571F0B5202837690017AFEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2571F0B6202837690017AFEF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2571F0BA202839C70017AFEF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2571F0C220283C890017AFEF /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		2F6F4905BC35AED63E5C9EAA /* Pods-MultiSense.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiSense.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MultiSense/Pods-MultiSense.debug.xcconfig"; sourceTree = "<group>"; };
+		61416D3A39D886E3C7EE1A36 /* Pods-MultiSense.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiSense.release.xcconfig"; path = "Pods/Target Support Files/Pods-MultiSense/Pods-MultiSense.release.xcconfig"; sourceTree = "<group>"; };
+		DFA86F8EF33B93DDB9A7C9D8 /* Pods_MultiSense.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiSense.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +38,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2571F0BB202839C70017AFEF /* AVFoundation.framework in Frameworks */,
+				EEE2C735AD952EF652D92BC5 /* Pods_MultiSense.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,8 +49,11 @@
 		253FC32E202834AB00A193F1 = {
 			isa = PBXGroup;
 			children = (
+				2571F0C220283C890017AFEF /* Podfile */,
 				253FC339202834AB00A193F1 /* MultiSense */,
 				253FC338202834AB00A193F1 /* Products */,
+				2571F0B9202839C70017AFEF /* Frameworks */,
+				ABD183860AD009DE298E727F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +118,24 @@
 			path = Assets;
 			sourceTree = "<group>";
 		};
+		2571F0B9202839C70017AFEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2571F0BA202839C70017AFEF /* AVFoundation.framework */,
+				DFA86F8EF33B93DDB9A7C9D8 /* Pods_MultiSense.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABD183860AD009DE298E727F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F6F4905BC35AED63E5C9EAA /* Pods-MultiSense.debug.xcconfig */,
+				61416D3A39D886E3C7EE1A36 /* Pods-MultiSense.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,9 +143,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 253FC349202834AB00A193F1 /* Build configuration list for PBXNativeTarget "MultiSense" */;
 			buildPhases = (
+				A9E592595CBED104822F3205 /* [CP] Check Pods Manifest.lock */,
 				253FC333202834AB00A193F1 /* Sources */,
 				253FC334202834AB00A193F1 /* Frameworks */,
 				253FC335202834AB00A193F1 /* Resources */,
+				2EBB0AF00CC5181EEAFA6599 /* [CP] Embed Pods Frameworks */,
+				4BF68CC9CCFEE9FC99D45255 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -165,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2571F0C320283C890017AFEF /* Podfile in Resources */,
 				2571F0B2202837610017AFEF /* Main.storyboard in Resources */,
 				2571F0B1202837610017AFEF /* LaunchScreen.storyboard in Resources */,
 				2571F0B7202837690017AFEF /* Assets.xcassets in Resources */,
@@ -173,6 +208,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EBB0AF00CC5181EEAFA6599 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MultiSense/Pods-MultiSense-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BF68CC9CCFEE9FC99D45255 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MultiSense/Pods-MultiSense-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9E592595CBED104822F3205 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		253FC333202834AB00A193F1 /* Sources */ = {
@@ -315,12 +398,17 @@
 		};
 		253FC34A202834AB00A193F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F6F4905BC35AED63E5C9EAA /* Pods-MultiSense.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ASZNTFCL2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/MultiSense/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ravi.MultiSense;
@@ -334,12 +422,17 @@
 		};
 		253FC34B202834AB00A193F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61416D3A39D886E3C7EE1A36 /* Pods-MultiSense.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ASZNTFCL2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/MultiSense/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ravi.MultiSense;
