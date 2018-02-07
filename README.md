@@ -38,8 +38,6 @@ This README would normally document whatever steps are necessary to get your app
         
         $ pod install 
 
-
-### Who do I talk to? ###
     Repo Information:-
 
 [GIT_URL](https://github.com/raviatri/MultiSense)
