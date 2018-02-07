@@ -27,9 +27,16 @@ This README would normally document whatever steps are necessary to get your app
         
         
         Configuration
-        To configure project you need to have Xcode installed in your mac. Check also cocoa pods installed in your system or not. CocoaPods is a dependency manager for cocoa projects. You can install this with following command:-  $ gem install cocoapods
+        To configure project you need to have Xcode installed in your mac. Check also cocoa pods installed 
+        in your system or not. CocoaPods is a dependency manager for cocoa projects. You can install this with 
+        following command:-
         
-        A podfile with name ‘Podfile’ exist in the project folder which contains all install references. You can make sure these dependencies are added in project. You can install these with following command:-  $ pod install 
+        $ gem install cocoapods
+        
+        A podfile with name ‘Podfile’ exist in the project folder which contains all install references. You can 
+        make sure these dependencies are added in project. You can install these with following command:-
+        
+        $ pod install 
 
 
 ### Who do I talk to? ###
