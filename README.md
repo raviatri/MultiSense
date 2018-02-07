@@ -2,8 +2,6 @@
 
 This README would normally document whatever steps are necessary to get your application up and running.
 
-### What is this repository for? ###
-
 * Objective
 
         The goal is to implement integration to Facebook in the following way:
@@ -20,9 +18,6 @@ This README would normally document whatever steps are necessary to get your app
 * Version
     1.0
     
-
-### How do I get set up? ###
-
 * Summary of set up
 
         Requirements
@@ -40,7 +35,7 @@ This README would normally document whatever steps are necessary to get your app
 ### Who do I talk to? ###
     Repo Information:-
 
-URL to GIT:- [a link](https://github.com/raviatri/MultiSense)
+[GIT_URL](https://github.com/raviatri/MultiSense)
 
     
     @App
