@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2550A3852029ADA400106952 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2550A3842029ADA400106952 /* README.md */; };
+		2550A3A62029B88B00106952 /* FriendCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2550A3982029B88B00106952 /* FriendCollectionViewCell.swift */; };
 		2571F0A82028374E0017AFEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2571F0A72028374E0017AFEF /* AppDelegate.swift */; };
 		2571F0AB202837580017AFEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2571F0AA202837580017AFEF /* ViewController.swift */; };
 		2571F0B1202837610017AFEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2571F0AD202837610017AFEF /* LaunchScreen.storyboard */; };
@@ -15,11 +17,14 @@
 		2571F0B8202837690017AFEF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2571F0B6202837690017AFEF /* Info.plist */; };
 		2571F0BB202839C70017AFEF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2571F0BA202839C70017AFEF /* AVFoundation.framework */; };
 		2571F0C320283C890017AFEF /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 2571F0C220283C890017AFEF /* Podfile */; };
+		25E6FA7220284C3200F17FEB /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E6FA7120284C3200F17FEB /* Keys.swift */; };
 		EEE2C735AD952EF652D92BC5 /* Pods_MultiSense.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFA86F8EF33B93DDB9A7C9D8 /* Pods_MultiSense.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		253FC337202834AB00A193F1 /* MultiSense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiSense.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2550A3842029ADA400106952 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2550A3982029B88B00106952 /* FriendCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendCollectionViewCell.swift; sourceTree = "<group>"; };
 		2571F0A72028374E0017AFEF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2571F0AA202837580017AFEF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2571F0AE202837610017AFEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -27,7 +32,8 @@
 		2571F0B5202837690017AFEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2571F0B6202837690017AFEF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2571F0BA202839C70017AFEF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		2571F0C220283C890017AFEF /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		2571F0C220283C890017AFEF /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		25E6FA7120284C3200F17FEB /* Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 		2F6F4905BC35AED63E5C9EAA /* Pods-MultiSense.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiSense.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MultiSense/Pods-MultiSense.debug.xcconfig"; sourceTree = "<group>"; };
 		61416D3A39D886E3C7EE1A36 /* Pods-MultiSense.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiSense.release.xcconfig"; path = "Pods/Target Support Files/Pods-MultiSense/Pods-MultiSense.release.xcconfig"; sourceTree = "<group>"; };
 		DFA86F8EF33B93DDB9A7C9D8 /* Pods_MultiSense.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiSense.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +55,7 @@
 		253FC32E202834AB00A193F1 = {
 			isa = PBXGroup;
 			children = (
+				2550A3842029ADA400106952 /* README.md */,
 				2571F0C220283C890017AFEF /* Podfile */,
 				253FC339202834AB00A193F1 /* MultiSense */,
 				253FC338202834AB00A193F1 /* Products */,
@@ -68,12 +75,37 @@
 		253FC339202834AB00A193F1 /* MultiSense */ = {
 			isa = PBXGroup;
 			children = (
+				2550A3862029B88B00106952 /* ViewModal */,
 				2571F0A62028374E0017AFEF /* AppDelegate */,
 				2571F0A9202837580017AFEF /* ViewControllers */,
+				25E6FA7020284C0500F17FEB /* Keys&Constants */,
 				2571F0AC202837610017AFEF /* Storyboards */,
 				2571F0B3202837690017AFEF /* SupportingFiles */,
 			);
 			path = MultiSense;
+			sourceTree = "<group>";
+		};
+		2545BC11202847D900822E70 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		2550A3862029B88B00106952 /* ViewModal */ = {
+			isa = PBXGroup;
+			children = (
+				2550A3972029B88B00106952 /* FriendCell */,
+			);
+			path = ViewModal;
+			sourceTree = "<group>";
+		};
+		2550A3972029B88B00106952 /* FriendCell */ = {
+			isa = PBXGroup;
+			children = (
+				2550A3982029B88B00106952 /* FriendCollectionViewCell.swift */,
+			);
+			path = FriendCell;
 			sourceTree = "<group>";
 		};
 		2571F0A62028374E0017AFEF /* AppDelegate */ = {
@@ -87,6 +119,7 @@
 		2571F0A9202837580017AFEF /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				2545BC11202847D900822E70 /* Friends */,
 				2571F0AA202837580017AFEF /* ViewController.swift */,
 			);
 			path = ViewControllers;
@@ -125,6 +158,14 @@
 				DFA86F8EF33B93DDB9A7C9D8 /* Pods_MultiSense.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25E6FA7020284C0500F17FEB /* Keys&Constants */ = {
+			isa = PBXGroup;
+			children = (
+				25E6FA7120284C3200F17FEB /* Keys.swift */,
+			);
+			path = "Keys&Constants";
 			sourceTree = "<group>";
 		};
 		ABD183860AD009DE298E727F /* Pods */ = {
@@ -199,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2550A3852029ADA400106952 /* README.md in Resources */,
 				2571F0C320283C890017AFEF /* Podfile in Resources */,
 				2571F0B2202837610017AFEF /* Main.storyboard in Resources */,
 				2571F0B1202837610017AFEF /* LaunchScreen.storyboard in Resources */,
@@ -263,6 +305,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2571F0AB202837580017AFEF /* ViewController.swift in Sources */,
+				25E6FA7220284C3200F17FEB /* Keys.swift in Sources */,
+				2550A3A62029B88B00106952 /* FriendCollectionViewCell.swift in Sources */,
 				2571F0A82028374E0017AFEF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,6 +454,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/MultiSense/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ravi.MultiSense;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -434,6 +479,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/MultiSense/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ravi.MultiSense;
 				PRODUCT_NAME = "$(TARGET_NAME)";

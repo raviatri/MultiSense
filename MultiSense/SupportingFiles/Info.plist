@@ -26,35 +26,24 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>FacebookAppID</key>
+	<string>820683568115506</string>
+	<key>FacebookDisplayName</key>
+	<string>MultiSense</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb820683568115506</string>
+			</array>
+		</dict>
+	</array>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
 	</array>
 	<key>UISupportedInterfaceOrientations</key>
-    
-    <key>CFBundleURLTypes</key>
-    <array>
-        <dict>
-            <key>CFBundleURLSchemes</key>
-            <array>
-                <string>fb820683568115506</string>
-            </array>
-        </dict>
-    </array>
-    <key>FacebookAppID</key>
-    <string>820683568115506</string>
-    <key>FacebookDisplayName</key>
-    <string>MultiSense</string>
-    
-    <key>LSApplicationQueriesSchemes</key>
-    <array>
-        <string>fbapi</string>
-        <string>fb-messenger-share-api</string>
-        <string>fbauth2</string>
-        <string>fbshareextension</string>
-    </array>
-    
-    
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 	</array>

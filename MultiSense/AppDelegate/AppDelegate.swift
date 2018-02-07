@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  MultiSense
 //
-//  Created by WinTerrain Technology on 05/02/18.
+//  Created by RAVI SHARMA on 05/02/18.
 //  Copyright © 2018 ravisharma. All rights reserved.
 //
 
