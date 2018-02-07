@@ -1,6 +1,6 @@
 //
 //  FriendCollectionViewCell.swift
-//  Butter
+//  MultiSense
 //
 //  Created by RaviSharma on 15/11/17.
 //  Copyright © 2017 Ravi Sharma. All rights reserved.
@@ -30,9 +30,6 @@ class FriendCollectionViewCell: UICollectionViewCell {
         lbl_Name.textAlignment = NSTextAlignment.center;
 
         lbl_selected.frame = CGRect(x: 0, y:0, width: cell_width, height: cell_width);
-        lbl_selected.clipsToBounds = true
-        lbl_selected.layer.cornerRadius = 5
-        
-        imgVw_selected.frame = CGRect(x: (cell_width-60)/2, y:(cell_width-78)/2, width: cell_width, height:65)
+        imgVw_selected.frame = CGRect(x: (cell_width-60)/2, y:(cell_width-78)/2, width: 60, height:78)
     }
 }
